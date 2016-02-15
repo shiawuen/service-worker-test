@@ -1,10 +1,8 @@
 // The files we want to cache
 var CACHE_NAME = 'cache-v1.0.0'
-var urlRoot = '/service-worker-test/engineers.sg'
+var urlRoot = '/service-worker-test'
 var urlsToCache = [
-  '/presenters.html',
-  '/assets/application.css',
-  '/assets/application.js'
+  '/abc.js'
 ].map(path => `${ urlRoot }${ path }`)
 
 // Set the callback for the install step
