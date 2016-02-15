@@ -1,9 +1,9 @@
 // The files we want to cache
 var CACHE_NAME = 'cache-v1.0.0'
-var urlRoot = '/service-worker-test'
+// var urlRoot = '/service-worker-test'
 var urlsToCache = [
-  '/abc.js'
-].map(path => `${ urlRoot }${ path }`)
+  '/service-worker-test/def.js'
+]
 
 // Set the callback for the install step
 self.addEventListener('install', function(event) {
