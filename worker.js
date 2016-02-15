@@ -1,6 +1,6 @@
 // The files we want to cache
 var CACHE_NAME = 'cache-v1.0.0'
-var urlRoot = '/engineers.sg'
+var urlRoot = '/service-worker-test/engineers.sg'
 var urlsToCache = [
   '/presenters.html',
   '/assets/application.css',
